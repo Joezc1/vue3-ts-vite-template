@@ -1,0 +1,27 @@
+{
+  "name": "zc-account-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.25",
+    "vue-router": "4.0.12",
+    "vuex": "4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "dart-sass": "^1.25.0",
+    "sass": "^1.47.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vite-plugin-compression": "^0.4.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
