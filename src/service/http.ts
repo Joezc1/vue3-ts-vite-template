@@ -12,7 +12,8 @@ axios.interceptors.request.use(
     (config):AxiosRequestConfig<any> => {
         const token = sessionStorage.getItem('token')
         if(token){
-            config.headers.token = token
+            // token业务处理
+            // config.headers && config.headers.token && (config.headers.token = token)
         }
         return config
     },

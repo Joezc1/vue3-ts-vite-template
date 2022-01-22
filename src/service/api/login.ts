@@ -1,8 +1,8 @@
 import http from '@/service/http'
-import * as T from './types'
+import * as T from './type'
 
 const loginApi: T.LoginApi = {
-    login(params){
+    login(params:T.LoginParams){
         return http.post('/login', params)
     }
 

@@ -1,11 +1,12 @@
 import { Module } from "vuex"
+import { RootState } from "../index"
 
 export interface userState{
     counter: number
 }
 
-export const store:Module<userState> = {
-    namespace:true,
+export const store:Module<userState,RootState> = {
+    namespaced:true,
     state: ():userState => ({
         counter: 0
     }),
